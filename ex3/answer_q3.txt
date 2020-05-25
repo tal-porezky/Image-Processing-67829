@@ -1,0 +1,2 @@
+The higher the number of pyramid levels the less sharp the result image (the
+blended image) will be.

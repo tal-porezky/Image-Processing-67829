@@ -1,0 +1,5 @@
+The dark level (darkness of the image) changes. Each level is more blurry than
+ the one before it, so it contains lower frequencies. If the coefficient of a
+ certain level is higher then the image will be darker at the appropriate
+ frequencies.
+We can think of it like an equlizer of the different images of the pyramid.

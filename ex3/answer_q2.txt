@@ -1,0 +1,7 @@
+Different image filters are responsible for the "smoothness" changes between
+the two images blended.
+Higher filter size will result a larger "gaussian" which will be used as the
+smoothing tool. The higher the filter size is, the more smooth will be the
+change at the points where the two images blend.
+Smaller filter size will result a smaller "gaussian" which will lead to a
+rougher change (not so smooth) at the points where the two images blend.
