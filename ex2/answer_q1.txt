@@ -1,0 +1,6 @@
+change_rate function changes the rate of the audio file - but keeping the same
+ number of samples. This causes the new audio file, when modified with ratio =
+  2 to have an higher pitch.
+change_samples changes the new audio file so it will have the same rate, but
+with smaller amount of samples on the audio. In practice we cut the higher
+frequencis so we still have the "main" frequncies within the audio file.

@@ -1,0 +1,8 @@
+Sample created using resize_spectrogram is "gibrish" and it is not possible to
+recognize any words in the audio file after it is fast forwarded.
+Sample created using resize_vocoder is much better and words can be recognized
+ in the fast forwarded audio file.
+The difference between the two file is, of course, due to the phase fixing we
+implemented in the resize_vocoder function.
+Since resize_spectrogram does not handle the phases, there is an interference
+between the waves of the over laping windows and the audio changes.

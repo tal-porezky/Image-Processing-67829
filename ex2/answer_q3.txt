@@ -1,0 +1,6 @@
+Actually, there should be no difference between the magnitude images.
+I guess the difference is caused due to using my own a-bit less accurate DFT
+and IDFT functions (and not numpy's fft and ifft).
+Or maybe the difference is caused because there is no one definision for
+derrevitae in the discrete case - we can use [-1, 1] or [-1, 0, 1] and get
+different results although we try to do the same thing.
