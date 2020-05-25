@@ -1,0 +1,4 @@
+We can train a model with 'corruption' function that her porpuse is to
+reduce the resulotion of the image. It will  reduce the size of a patch
+by sampling every 2 pixels for few iteration and then expend to the real size
+again. The train will be with the corrupt image and the real patch.

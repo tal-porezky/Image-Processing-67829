@@ -1,0 +1,12 @@
+Denoising:
+One could notice a steady decline in the error for each run with increasing
+the residual blocks however the runtime increased as well since
+there were overall more variables for the network to compute and to deal with.
+As for the quality there was a noticeable difference between every run since
+the picture became a bit cleaner with each run of the network.
+There is one point where the error is higher than the previous. I think it
+might indicate a start of "overfitting" in the network.
+
+Deblurring:
+Similar results with the quantative measure as the plot curved downwards.
+Obviously the runtime increased with the amount of residual blocks however the deblurring seemed to be increasingly better with each attempt.
