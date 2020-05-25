@@ -1,0 +1,7 @@
+in case of a segment which contains no pixels, the process will fail because
+segment with no pixels would mean p(z) = 0 for that segment, and therefore
+lead the algorithm to crash since we will divide by 0 when calculating q_i.
+
+In order for the algorithm not to crash we can divide the segments so that
+would contain same number of pixels in each segment, instead of dividing them
+in z equal parts of 255.
